@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 14, 2022, 11:26:24 AM
+    Author     : Ahmed
+*/
+
+
+
+body {
+    background-color: black;
+}
+
+ul{
+    display: inline-flex;
+    padding: 10px 10px 10px 10px;
+}
+
+li{
+    margin: 10px 10px 10px 20px;
+}
+
+a{
+    color: black;
+}
+
+.chat{
+    width: 70%;
+    height: 500px;
+    border: 1px solid silver;
+    overflow-y: scroll;
+    background-color: #fff;
+    color: red;
+}
+
+.login-card {
+    margin-top: 100px!important;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item{
+    display: flex;
+}
+
+.navbar-custom .nav-item:hover .nav-link{
+    background: #4a4a4a;
+    color: white;
+    border-radius: 5px; 
+}
+
+thead{
+    color: white;
+}
+
+tr{
+    color: white;
+}
+
+.msgrx{
+    
+    align-content: flex-end;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.msgtx{
+    
+    align-content: flex-start;
+    background-color: white;
+
+}
+
+#tx{
+    background-color: black;
+    width: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#rx{
+    background-color: #575757;
+    width: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.msgctrl{
+    display: flex;
+    width: 70%;
+}
+
+#textmsg{
+    width: 100%;
+}
+
+.userimg {
+    border-radius: 15px;
+    background-color: gray;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+img{
+    padding: 20px;
+}
+
+.chatinfo{
+    display: flex;
+    width: 70%;
+    background-color: red;
+}

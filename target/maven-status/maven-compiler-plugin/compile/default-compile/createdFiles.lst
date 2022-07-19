@@ -1,0 +1,12 @@
+com\Models\Message.class
+com\Servlets\LogoutServlet.class
+com\Servlets\ProfileImageServlet.class
+com\Dao\SessionDao.class
+com\Models\ChatSession.class
+com\Dao\MessageDao.class
+com\Servlets\LoginServlet.class
+com\Dao\UserDao.class
+com\Models\User.class
+com\Servlets\RegisterServlet.class
+com\Db\DBConnect.class
+com\Servlets\ChatMessageServlet.class
